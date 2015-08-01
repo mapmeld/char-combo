@@ -15,11 +15,20 @@ function getRandomWord() {
   var selectWord = words[word];
 
   // make the second word easy
-  if (selectWord.length > 6) {
+  if (wordsSolved < 2 && selectWord.length > 6) {
     return getRandomWord();
   }
 
-  return words[word];
+  // avoid hard combos until 5 solved
+  if (wordsSolved < 5 && hardCombos) {
+    for (var c = 0; c < hardCombos.length; c++) {
+      if (selectWord.indexOf(hardCombos[c]) > -1) {
+        return getRandomWord();
+      }
+    }
+  }
+
+  return selectWord;
 }
 
 function randomize(str) {
