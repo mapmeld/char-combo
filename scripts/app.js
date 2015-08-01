@@ -12,7 +12,7 @@ var PuzzleWord = React.createClass({
   },
 
   render: function() {
-    return <div>{this.bannerOrWord()}</div>
+    return <div className="banner">{this.bannerOrWord()}</div>
   }
 });
 
@@ -71,7 +71,7 @@ var PuzzleApp = React.createClass({
   render: function() {
      return (
        <div>
-         <h3>char-combo</h3>
+         <h4>char-combo</h4>
          <PuzzleWord word={this.state.word} banner={this.state.banner} />
          <h3 className="typeWord">{this.state.typed}</h3>
          {this.state.randomOrder.split("").map(function(chr, i) {

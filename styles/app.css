@@ -7,20 +7,20 @@ body {
   margin-right: auto;
 }
 
-h3 {
-  font-size: 20pt;
+h3, .banner {
+  font-size: 3rem;
 }
 
 .typeWord {
-  min-height: 42pt;
+  min-height: 1.8rem;
 }
 
 button {
-  font-size: 20pt;
-  padding: 20px;
+  font-size: 2rem;
+  padding: 0.15rem 0.5rem;
   background: #000;
   color: #fff;
-  margin: 0 10px;
+  margin: 0.1rem 1rem;
   border-radius: 5pt;
 }
 
