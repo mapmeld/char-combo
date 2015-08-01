@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+
+#node div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+.typeWord {
+  min-height: 42pt;
+}
+
+button {
+  font-size: 20pt;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 5pt;
+}
+
+button.pass {
+  display: block;
+  font-size: 10pt;
+  margin-top: 75px;
+  padding: 8px;
+  background: #444;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span.win, span.lose {
+  color: white;
+  padding: 5px;
+}
+
+span.win {
+  background: darkgreen;
+}
+
+span.lose {
+  background: darkred;
+}
+
+a {
+  text-decoration: none;
+  color: #66f;
+}

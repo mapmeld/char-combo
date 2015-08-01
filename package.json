@@ -1,0 +1,10 @@
+{
+  "name": "char-combo",
+  "version": "1.0.1",
+  "description": "game to combine characters and learn a new script",
+  "author": "Nick Doiron <ndoiron@mapmeld.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  }
+}
