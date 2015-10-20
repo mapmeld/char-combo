@@ -18,7 +18,7 @@ var PuzzleWord = React.createClass({
 
 var PuzzleApp = React.createClass({
   getInitialState: function() {
-    return { word: "မြန်မာဘာသာ", randomOrder: "မြန်ာဘသ", typed: "", banner: "", disabled: false };
+    return { word: firstWord, randomOrder: firstOrder, typed: "", banner: "", disabled: false };
   },
 
   typeKey: function(i) {

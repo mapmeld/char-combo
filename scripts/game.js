@@ -15,7 +15,11 @@ function getRandomWord() {
   var selectWord = words[word];
 
   // make the second word easy
-  if (wordsSolved < 2 && selectWord.length > 6) {
+  var originalMaxLength = 6;
+  if (typeof maxLength !== "undefined") {
+    originalMaxLength = maxLength;
+  }
+  if (wordsSolved < 2 && selectWord.length > originalMaxLength) {
     return getRandomWord();
   }
 

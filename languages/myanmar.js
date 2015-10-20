@@ -6,3 +6,6 @@ var words = ["မြေပုံ","ဆိုသည်မှာ","ကမ္ဘာ
 // because they are hard
 // and they will stop playing
 var hardCombos = ["္"];
+
+var firstWord = "မြန်မာဘာသာ";
+var firstOrder = "မြန်ာဘသ";

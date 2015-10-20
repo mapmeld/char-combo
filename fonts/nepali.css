@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  src: url(/fonts/NotoSansDevanagari/NotoSansDevanagari-Regular.ttf);
+}
+
+html, body, span, strong {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+button {
+  padding: 0.15rem 0.8rem;
+}
