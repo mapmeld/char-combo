@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Noto Sans Tamil';
+  src: url(/fonts/NotoSansTamil/NotoSansTamil-Regular.ttf);
+}
+
+html, body, span, strong {
+  font-family: 'Noto Sans Tamil', sans-serif;
+}
