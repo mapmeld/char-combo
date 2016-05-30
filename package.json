@@ -5,6 +5,7 @@
   "author": "Nick Doiron <ndoiron@mapmeld.com>",
   "license": "MIT",
   "dependencies": {
-    "node-static": "^0.7.7"
+    "node-static": "^0.7.7",
+    "wordcut": "^0.8.1"
   }
 }
