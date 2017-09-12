@@ -1,5 +1,7 @@
 # char-combo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/char-combo.svg)](https://greenkeeper.io/)
+
 char-combo is a game where you are given a word in a foreign alphabet, and the
 set of characters which make up the word, in random order. For example.
 
